@@ -24,8 +24,7 @@
 
 ## 🔍 Preview
 
-![Landing Page Preview](https://user-images.githubusercontent.com/your-screenshot.png)  
-<sub>*(Replace this with an actual screenshot from your app)*</sub>
+![Landing Page Preview](public/screencapture-localhost-5173-2025-06-16-01_17_25.png)  
 
 ---
 
