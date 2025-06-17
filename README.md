@@ -41,9 +41,28 @@
 
 ## 📁 Project Structure
 
-src/
-├── components/ # Navbar, Hero, ProductSection, Footer, etc.
-├── pages/ # Home page layout
-├── App.js # Main app wrapper
-├── index.js # Entry point
+src/ <br/>
+├── assets/ <br/>
+├── layouts/ <br/>
+├── components/ # Navbar, Hero, ProductSection, Footer, etc. <br/>
+├── pages/ # Home page layout  <br/>
+├── App.js # Main app wrapper  <br/>
+├── index.js # Entry point  <br/>
 └── theme.js # (Optional) Custom MUI theme config
+
+
+
+## ⚙️ Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/furniture-landing-page.git
+cd furniture-landing-page
+
+# Install dependencies
+npm install
+
+# Start the local development server
+npm start
+
+Then open http://localhost:3000 to view it in the browser.
