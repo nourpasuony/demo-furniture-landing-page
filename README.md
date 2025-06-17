@@ -20,6 +20,7 @@
 - 🚀 Deployed on Vercel for blazing-fast performance
 - 🧩 Clean, modular folder structure
 
+> 🛠️ This landing page screen was designed and developed in **just one day**.
 ---
 
 ## 🔍 Preview
