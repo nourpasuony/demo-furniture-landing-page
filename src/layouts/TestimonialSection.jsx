@@ -42,9 +42,9 @@ const TestimonialSection = () => {
   const testimonial = testimonials[index];
 
   return (
-    <Box sx={{ background: "#fff", p: { xs: 6, md: 10 } }}>
+    <Box sx={{ background: "#fff", width: "80%", mx: "auto", my:"50px" }}>
       <Grid container spacing={4} alignItems="center">
-        {/* Left Side: Text */}
+        {/* Left Side*/}
         <Grid
           item
           size={{ xs: 12, md: 6 }}
@@ -145,7 +145,7 @@ const TestimonialSection = () => {
             </IconButton>
           </Box>
         </Grid>
-        {/* Right Side: Image */}
+        {/* Right Side */}
         <Grid item size={{ xs: 12, md: 6 }}>
           <Box
             component="img"

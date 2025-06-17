@@ -16,7 +16,8 @@ const SliderSection = () => {
   ]);
 
   return (
-    <Box py={4} pl={{ xs: 5, md: 14 }}>
+    // py={4} pl={{ xs: 5, md: 14 }}
+    <Box sx={{ width: "90%", ml: "auto", my:"50px"}}>
       <Grid container spacing={1}>
         {/* Left Section */}
         <Grid item size={{ xs: 12, md: 3, lg: 3 }}>

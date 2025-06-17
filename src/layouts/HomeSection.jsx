@@ -26,7 +26,8 @@ const StyledImage = styled('img')({
 
 export default function HomeSection() {
   return (
-    <Box sx={{ p:'7rem', backgroundColor: '#fff' }}>
+    // p:'7rem',
+    <Box sx={{ width:"80%", mx:"auto",my:"50px", backgroundColor: '#fff' }}>
       <Grid container spacing={9} alignItems="center">
         {/* Left Image */}
         <Grid item size={{ xs: 12, md: 6, lg: 6 }}>

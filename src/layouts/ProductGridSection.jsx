@@ -41,7 +41,7 @@ const ProductGridSection = () => {
   const [page, setPage] = useState(1);
 
   return (
-    <Box sx={{ background: "#fff", py: 6, px: { xs: 1, sm: 2, md: 10 } }}>
+    <Box sx={{ background: "#fff",width: "80%", mx: "auto", my:"50px" }}>
       <Typography
         variant="h5"
         align="center"
@@ -72,11 +72,10 @@ const ProductGridSection = () => {
       </Typography>
       <Grid container spacing={5}>
         {products.map((product, idx) => (
-          <Grid item size={{sm:12 , md:3 , lg:3}} key={idx}>
+          <Grid item size={{sm:12 , md:3 , lg:3}} sx={{width: "100%",}} key={idx}>
             <Card
               sx={{
                 borderRadius: 3,
-                width: "100%",
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
